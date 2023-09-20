@@ -1,66 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;900&display=swap');
+
 
 
 .caja{
-    background-image: url(./rickymorty.jpg);
-    background-size: cover;
-    height: 595px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .caja1{
-    height: 94%;
+    height: 570px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     background:#ffffffe6;
-    width: 45%;
+    width: 56%;
     text-align: center;
 
 }
 
 h1 {
-    font-family: 'Ralewey', sans-serif;
-    color: rgb(52, 77, 103, 0.9);
+    color: #344d67;
     font-weight: 500;
     font-size: 2.5rem;
 }
 
-h2{ font-family: 'Ralewey', sans-serif;
-    color: rgb(52, 77, 103, 0.9);
+h2{ color: #344d67;
     font-weight: 500;
     font-size: 2rem;
-    margin-top: 20px;
+    margin:20px 0px 25px 0px;
 
 }
-
+.p1{
+    margin-bottom: 20px;
+}
 p{
-    font-family: 'Ralewey', sans-serif;
-    color: rgb(52, 77, 103, 0.9);
+    
+    color: #344d67;
     font-weight: 500;
+    font-size: 16px;
 }
 
 ul{
     display: flex;
-    text-decoration: none;
-    list-style-type: none;
+   list-style-type: none;
     margin-top: 20px;
 }
 
-li{
+.btn1, .btn2{
     margin: 0px 10px 0px 10px;
-    background-color: rgb(34, 49, 66,0.9);
-    color:#b1f0dc;
+    background-color: #344d67;
+    
     padding: 20px 20px 20px 20px;
     border-radius: 5px;
     
 }
+
  .btn2{
     padding: 20px 30px 20px 30px;
  }
+
+ a{
+    color: #6eccaf;
+    text-decoration: none;
+}
+ 
     
 

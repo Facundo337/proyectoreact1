@@ -1,0 +1,29 @@
+.cajanav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 20px ;
+    background-color: #344d67;
+}
+
+.navh2{
+    color:#6eccaf;
+    margin-left: 90px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cajanav2{
+    margin-right: 50px;
+
+}
+a{
+    margin: 0px 30px 0px 0px;
+}
+
+a:hover{
+    background-color: #6eccaf;
+    color:#344d67;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
