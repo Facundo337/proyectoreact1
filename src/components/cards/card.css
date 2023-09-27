@@ -1,8 +1,85 @@
-.divcard{
-    width: 300px;
-    margin-bottom: 50px;
-    background-color: #344d67;
-    padding: 10px 10px 10px 10px;
+.div-card{
+    width: 320px;
+    height: 400px;
+    background-color: #223142;
     border-radius: 7px;
+    text-align: center;
+    position: relative;
+    padding-top:10px;
+    margin: 0px 10px 10px 0px;
 }
+
+.nombre{
+    color:#6eccaf;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+.imagen-personaje{
+    width: 95%;
+    height: 70%;
+    
+    
+    background-position:center;
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-card .btnKM{
+    background-color:#6eccaf;
+    padding: 7px 15px 7px 15px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 190px;
+    bottom: 10px;
+}
+
+.div-card .btnX{
+    display: none;
+}
+
+.div-card-open .btnX{
+    position: absolute;
+    height: 35px;
+    width: auto;
+    left: 635px;
+    top: 30px;
+    background-color:#6eccaf;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    
+}
+
+.div-card-open .btnKM{
+    display: none;
+    
+}
+.div-card-open{
+    width: 700px;
+    height: 450px;
+    background-color: #223142;
+    border-radius: 10px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding-top: 30px;
+    margin: 0px 10px 10px 0px;
+}
+
+.div-card-open .imagen-personaje{
+    margin:0px 0px 0px 10px;
+    width: 45%;
+}
+.div-card-open .nombre{
+    margin:5px 0px 0px 70px;
+
+}
+
+
 

@@ -3,7 +3,6 @@ import './infocards.css'
 function InfoCards({estatus,origen,genero,especie,setShow}){
     return(
        <div className='cajainfocards'>
-            <button onClick={()=> setShow(false)}>X</button>
              <ul>
                 <li>
                     <h4>Character status</h4>

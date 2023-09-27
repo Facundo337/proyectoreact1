@@ -1,11 +1,22 @@
+.contenedor-nav{
+    position: fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+
+}
 .cajanav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 0px 50px 20px ;
     background-color: #344d67;
+   
 }
-
+.btn-RM{
+    text-decoration: none;
+    color: #6eccaf;
+}
 .navh2{
     color:#6eccaf;
     margin-left: 90px;
@@ -17,11 +28,13 @@
     margin-right: 50px;
 
 }
-a{
+.btn-N{
     margin: 0px 30px 0px 0px;
+    text-decoration: none;
+    color: #6eccaf;
 }
 
-a:hover{
+.btn-N:hover{
     background-color: #6eccaf;
     color:#344d67;
     padding: 10px 10px 10px 10px;

@@ -6,14 +6,25 @@ import InfoCards from '../infocards/infocards'
 
 function Card ({data}){
 
-    const [show,setShow]= useState(false)
+    const [cardOpen,setCardOpen]= useState("div-card")
+
+    const show=()=>{
+        setCardOpen("div-card-open")
+    }
+
+    const closeShow=()=>{
+        setCardOpen("div-card")
+    }
+
+
 
     return(
-        <div className='divcard card'>
-            <img src={data.image} alt='imagen-personaje'></img>
-            <h3>{data.name}</h3>
-            <button className={show?"d-none":"d-block"} onClick={()=> setShow(true)}>Know More..</button>
-           {show === true? <InfoCards estatus={data.status} genero={data.gender} especie={data.species} origen={data.origin.name} setShow={setShow}/>:''}
+        <div className={cardOpen}>
+                <img className="imagen-personaje"src={data.image} alt='imagen-personaje'></img>
+                <h3 className="nombre">{data.name}</h3>
+                <button className='btnKM' onClick={show}>Know More..</button>
+                <button className="btnX" onClick={closeShow}>X</button>
+                {cardOpen === "div-card-open" ? <InfoCards estatus={data.status} genero={data.gender} especie={data.species} origen={data.origin.name}/>:''}
         </div>
     )
 }

@@ -1,0 +1,45 @@
+
+.contenedor-contacto2{
+    background-color:rgba(92,117,146,.9);
+    width: 74%;
+    padding: 20px 100px 20px 100px;
+}
+
+
+.contenedor-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 215px;
+}
+
+.texto{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.texto h2,p{
+    color: #223142;
+}
+.input-em{
+    height: 42px;
+}
+.areatexto{
+    height: 300px;
+    border-radius: 7px;
+}
+
+.texto p{
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.btn-send{
+    background-color: #344d67;
+    color: white;
+}
+
+.btn-send:hover{
+    background-color: #6eccaf;
+
+}

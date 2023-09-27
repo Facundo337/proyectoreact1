@@ -1,0 +1,21 @@
+.filt{
+    background-color:  #344d67;
+    padding: 7px 50px 7px 7px ;
+    border-radius: 7px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+}
+
+.input{
+    margin-right: 5px;
+}
+
+.filt input{
+    background-color: #6eccaf;
+    border: grey;
+}
+
+.form-check-input:checked {
+    background-color: #223142;
+}

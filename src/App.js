@@ -1,15 +1,11 @@
-
+import Router from './router/Router'
 import './App.css';
 
-import Characters from './pages/characters/characters'
-import Home from './pages/home/home';
+
 
 function App() {
   return (
-        <div>
-          {/*<Home/>*/}
-          <Characters/>
-        </div>
+        <Router/>
     )
 }
 

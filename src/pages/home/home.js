@@ -1,4 +1,5 @@
 import './home.css'
+import { Link } from 'react-router-dom';
 
 function Home() {
     return(
@@ -9,10 +10,10 @@ function Home() {
                 <p className='p1'>This proyect was made for practising React and to made a functional website</p>
                 <p>In this website you can know information of the characters of this animated series.</p>
                 <p>Also you can filter for diferent types of properties to find the character that you are looking for or send us a massage for any concern o sugestion</p>
-                <h2>Lets go!</h2>
+                <h2 className='lg'>Lets go!</h2>
                 <ul>
-                    <li className='btn1'><a href='characteres'>Characters</a></li>
-                    <li className='btn2'><a href='contact'>Contact</a></li>
+                    <li className='btn1'><Link class="btnh" to='/characters'>Characters</Link></li>
+                    <li className='btn2'><Link class="btnh btnh-C" to='/contact'>Contact</Link></li>
 
                 </ul>
             </div>

@@ -1,7 +1,31 @@
+.cajainfocards{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
 .cajainfocards ul{
     display: block;
 
 }
+
+.cajainfocards li{
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid rgba(0,0,0,0.158);
+    height: 70px;
+}
 .cajainfocards p,h4{
     color: white;
+}
+.cajainfocards li:hover{
+    background-color:#6eccaf ;
+    
 }

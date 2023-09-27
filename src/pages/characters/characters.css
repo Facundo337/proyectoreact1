@@ -1,0 +1,39 @@
+.cont-carac{
+    margin-top: 200px;
+}
+.contendorcard{
+    width: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.filtros{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.alert{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+    background-color: #6eccaf;
+    gap: 5px;
+    padding: 10px  400px 15px 400px;
+    color:  #344d67;
+
+}
+
+.ic-adv{
+    margin-top: 10px;
+}
+
+
+.nombre1{
+    margin: 50px 0px 0px 20px;
+}
