@@ -90,7 +90,13 @@
     .btn-filtros{
         display: flex;
     }
-    
+
+    .alert{
+        padding: 10px  150px 10px 150px;
+    }
+    .cartel-adv{
+        margin-bottom: 3px;
+    }
 
 }
 
@@ -100,6 +106,11 @@
         width: 95%;
         gap:150px;
     }
+
+    .alert{
+        padding: 10px  15px 10px 15px;
+    }
+    
 }
 
 

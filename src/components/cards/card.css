@@ -100,4 +100,9 @@
         margin: 0px;
     
     }
+
+    .div-card-open .btnX{
+       left: 260px;
+        top: 5px;
+    }
 }
