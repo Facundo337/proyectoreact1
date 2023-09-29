@@ -77,9 +77,27 @@
     width: 45%;
 }
 .div-card-open .nombre{
-    margin:5px 0px 0px 70px;
+   margin-left: 70px;
 
 }
 
 
-
+@media (max-width:500px){
+    .div-card-open{
+        height: 700px;
+        width: 300px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .div-card-open .imagen-personaje{
+       margin-top: 30px;
+        width: 90%;
+        margin: 0px;
+    }
+    .div-card-open .nombre{
+        margin: 0px;
+    
+    }
+}

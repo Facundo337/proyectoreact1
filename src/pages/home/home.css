@@ -22,10 +22,10 @@
 
 }
 
-h1 {
+.titulo-home {
     color: #344d67;
     font-weight: 500;
-    font-size: 2.5rem;
+    font-size: 2.5rem
    
 }
 .lg{
@@ -79,7 +79,35 @@ ul{
     color: #344d67;
  }   
 
- .btn2:hover{
+@media (max-width:800px){
+    h2{
+        color: #6eccaf;
+    }
 
- }
+    .caja1{
+        width: 75%;
+    }
+}
+
+@media (max-width:500px){
+    .titulo-home{
+       font-size:1.8rem ; 
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .caja1{
+        width: 75%;
+    }
+
+    .btnh{
+        padding: 10px 10px 10px 10px;
+    }
+    .btnh-C{
+        padding: 10px 20px;
+    }
+    
+}
 

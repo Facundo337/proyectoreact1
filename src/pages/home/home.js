@@ -5,7 +5,7 @@ function Home() {
     return(
         <div className='caja'>
             <div className='caja1'>
-                <h1>Proyect Rick & Morty</h1>
+                <h1 className='titulo-home'>Proyect Rick & Morty</h1>
                 <h2>Helcome to Rick & Morty Proyect!</h2>
                 <p className='p1'>This proyect was made for practising React and to made a functional website</p>
                 <p>In this website you can know information of the characters of this animated series.</p>

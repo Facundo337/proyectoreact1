@@ -40,3 +40,47 @@
     padding: 10px 10px 10px 10px;
     border-radius: 5px;
 }
+
+.btn-hamb{
+    font-size: 50px;
+    color: #6eccaf;
+display: none;}
+
+
+
+
+@media (max-width:800px){
+    .cajanav1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cajanav2{
+        display: none;
+    }
+
+    .cajanav{
+        display: block;
+        padding-bottom: 20px;
+    }
+
+    .btn-hamb{
+        display: flex;
+        margin:0px 30px 0px 0px;
+        align-items: center;
+    }
+
+
+    .btns{
+        display: flex;
+        flex-direction: column
+    
+    }
+
+    .btns li{
+        margin-top: 10px;
+    }
+
+   
+}

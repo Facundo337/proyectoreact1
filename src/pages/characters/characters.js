@@ -84,13 +84,27 @@ function Characters (){
     }
     console.log(filtrosAplicados)
     useEffect(()=>{filtrosAplicados.forEach((filtro)=>{filtrar(filtro)})},[filtrosAplicados])
-
    
+    const [filter,setFilter]=useState(false)
+    
+    const showFilter=()=>{
+        setFilter(true)
+    }
+    const unShowFilter=()=>{
+        setFilter(false)
+    }
+
+
     return(
         <div className='cont-carac'>
             <Nav/>
-            <h2 className='nombre1'>Filters</h2>
-            <section className='filtros'>
+            <section className='contenedor-filtros'>
+                <div className='filtros-nav'>
+                    <h2 className='nombre1'>Filters</h2>
+                    <i class="btn-filtros bi bi-filter" onClick={filter ? unShowFilter : showFilter}></i>
+                </div>
+            </section>
+            <section className={filter ? 'filtros-res':'filtros'}>
              {filtros.map((item)=>{
                 return <Filter key={item.nombre} valorFiltro={item.filtro} valorId={item.nombre}
                 handlerChange={aplicarFiltros}/>})}

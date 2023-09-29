@@ -43,3 +43,18 @@
     background-color: #6eccaf;
 
 }
+
+@media (max-width:500px){
+    .contenedor-contacto2{
+        padding: 10px 10px 10px 10px;
+        width: 90%;
+    }
+
+    .contenedor-contacto{
+        margin-top: 160px;
+    }
+
+    .texto p{
+        font-size: 18px;
+    }
+}

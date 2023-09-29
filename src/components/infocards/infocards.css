@@ -29,3 +29,20 @@
     background-color:#6eccaf ;
     
 }
+
+
+@media (max-width:500px) {
+    .cajainfocards{
+        display: block;
+        position: inherit;
+        top: 0px;
+        left: 0px;
+        width: 340px;
+        margin-top: 10px;
+        height: 1200px;
+    }
+
+    .cajainfocards li{
+        width: 280px;
+    }
+}
